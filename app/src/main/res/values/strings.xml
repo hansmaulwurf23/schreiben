@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">Schreiben</string>
+
+    <string name="choose_type">Was möchtest du schreiben?</string>
+    <string name="leaderboard">Bestenliste</string>
+    <string name="about">About</string>
+    <string name="dark_theme">Dunkles Design</string>
+    <!-- Absichtlich englisch und nicht übersetzt: so vom Autor gewünscht. -->
+    <string name="about_built_by">Built by Martin and Claude with ❤️</string>
+    <string name="about_version">Version: %1$s (%2$s)</string>
+
+    <string name="type_plural">Mehrzahl</string>
+    <string name="type_plural_description">der Apfel → die Äpfel</string>
+    <string name="type_unknown">Unbekannt (%1$s)</string>
+
+    <string name="task_progress">Wort %1$d von %2$d</string>
+    <string name="feedback_correct">Richtig!</string>
+    <string name="feedback_wrong">Richtig ist: %1$s</string>
+    <string name="feedback_case">Fast! Nomen schreibt man groß: %1$s</string>
+    <string name="abort_title">Aufhören?</string>
+    <string name="abort_text">Die angefangene Runde zählt nicht für die Bestenliste.</string>
+    <string name="abort_confirm">Aufhören</string>
+    <string name="abort_continue">Weiterschreiben</string>
+
+    <string name="result_title_perfect">Alles richtig!</string>
+    <string name="result_title_great">Super gemacht!</string>
+    <string name="result_title_good">Gut gemacht!</string>
+    <string name="result_title_practice">Weiter üben!</string>
+    <string name="result_correct">%1$d von %2$d richtig</string>
+    <string name="result_points_label">Punkte</string>
+    <string name="result_time_label">Zeit</string>
+    <string name="result_new_record">Neuer Rekord!</string>
+    <string name="result_save_failed">Ergebnis konnte nicht gespeichert werden: %1$s</string>
+    <string name="to_leaderboard">Zur Bestenliste</string>
+    <string name="play_again">Nochmal</string>
+
+    <string name="filter_all">Alle</string>
+    <plurals name="leaderboard_summary">
+        <item quantity="one">%1$d Runde · %2$s · %3$d %% richtig</item>
+        <item quantity="other">%1$d Runden · %2$s · %3$d %% richtig</item>
+    </plurals>
+    <string name="leaderboard_empty">Noch keine Runden. Los geht\'s!</string>
+    <string name="leaderboard_detail">%1$d/%2$d richtig · %3$s</string>
+    <plurals name="points_short">
+        <item quantity="one">%1$d Punkt</item>
+        <item quantity="other">%1$d Punkte</item>
+    </plurals>
+    <string name="export">Bestenliste exportieren</string>
+    <string name="import_">Bestenliste importieren</string>
+    <string name="export_done">Bestenliste exportiert</string>
+    <string name="export_failed">Export fehlgeschlagen: %1$s</string>
+    <plurals name="import_done">
+        <item quantity="one">%1$d Runde importiert, %2$d waren schon da</item>
+        <item quantity="other">%1$d Runden importiert, %2$d waren schon da</item>
+    </plurals>
+    <string name="import_failed">Import fehlgeschlagen: %1$s</string>
+    <string name="no_file_picker">Auf diesem Gerät lassen sich keine Dateien auswählen.</string>
+
+    <string name="close">Schließen</string>
+    <string name="back">Zurück</string>
+
+    <string name="check_update">Nach Update suchen</string>
+    <string name="update_checking">Suche nach Updates …</string>
+    <string name="update_none">Schreiben ist aktuell (Version %1$s)</string>
+    <string name="update_failed">Update-Suche fehlgeschlagen: %1$s</string>
+    <string name="update_not_allowed">In diesem Profil lassen sich keine Apps installieren. Bitte im Eltern-Profil aktualisieren.</string>
+    <string name="update_available_title">Update verfügbar</string>
+    <string name="update_available_text">Version %1$s ist bereit (installiert ist %2$s). Die Bestenliste bleibt erhalten.</string>
+    <string name="update_install">Installieren</string>
+    <string name="update_later">Später</string>
+    <string name="update_allow_source">Bitte erlauben, dass Schreiben Updates installieren darf, dann zurückkehren.</string>
+    <string name="update_install_failed">Update fehlgeschlagen: %1$s</string>
+</resources>

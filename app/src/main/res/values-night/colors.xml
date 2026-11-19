@@ -1,0 +1,24 @@
+<resources>
+    <!-- Dunkles Design: nur Hintergründe, Text und Tasten ändern sich; die Farben der Aufgabenarten
+         und Stufen bleiben dieselben wie im hellen Design. -->
+    <color name="bg">#FF15161C</color>
+    <color name="surface">#FF22232B</color>
+    <color name="text_primary">#FFF2F2F5</color>
+    <color name="text_secondary">#FFA2A2AE</color>
+    <color name="divider">#FF363742</color>
+    <color name="disabled">#FF565762</color>
+
+    <color name="answer_correct_bg">#FF1F3A24</color>
+    <color name="answer_wrong_bg">#FF4A2020</color>
+    <color name="answer_box_bg">#FF22232B</color>
+    <color name="answer_box_border">#FF7A7A88</color>
+
+    <color name="key_bg">#FF262730</color>
+    <color name="key_stroke">#FF3A3B46</color>
+    <color name="key_text">#FFF2F2F5</color>
+
+    <color name="highlight">#FF4A3F12</color>
+
+    <color name="dialog_bg">#FF22232B</color>
+    <color name="dialog_border">#FF5A5B68</color>
+</resources>

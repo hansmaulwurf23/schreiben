@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Das Eingabefeld in der Aufgabe; Farbe und Rand setzt QuizActivity je nach Zustand. -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <corners android:radius="16dp" />
+    <solid android:color="@color/answer_box_bg" />
+    <stroke android:width="3dp" android:color="@color/answer_box_border" />
+</shape>

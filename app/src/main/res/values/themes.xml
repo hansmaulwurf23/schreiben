@@ -1,0 +1,33 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Hell und dunkel mit denselben kräftigen Farben für die Spiele; welches gilt,
+         entscheidet der Schalter im Menü (Settings), nicht das System. -->
+    <style name="Theme.Schreiben" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/type_plural</item>
+        <item name="colorOnPrimary">#FFFFFFFF</item>
+        <item name="colorSecondary">@color/answer_correct</item>
+        <item name="android:colorBackground">@color/bg</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="colorOnSurfaceVariant">@color/text_secondary</item>
+        <item name="android:statusBarColor">@color/bg</item>
+        <item name="android:navigationBarColor">@color/bg</item>
+        <item name="android:windowLightStatusBar">@bool/light_system_bars</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o_mr1">@bool/light_system_bars</item>
+    </style>
+
+    <style name="Toolbar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">?attr/actionBarSize</item>
+        <item name="android:background">@color/bg</item>
+        <item name="titleTextColor">@color/text_primary</item>
+    </style>
+
+    <style name="BigButton" parent="Widget.Material3.Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/big_button_height</item>
+        <item name="android:textSize">22sp</item>
+        <item name="cornerRadius">20dp</item>
+    </style>
+
+</resources>
